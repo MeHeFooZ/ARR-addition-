@@ -1,0 +1,84 @@
+oops-object oriented programming structures
+
+1.class variables can be accesed inside the method using keyword "SELF".
+2.instances variable can be accessed outside the class using "objname .variable name"
+3.variables inside the method are having local scope we cannot acsess the outside the class
+
+PROGRAM:
+    class happy:
+    a=int(input(""))
+    def method(self):
+        b=12
+        print(self.a)
+        print(b)
+obj=happy()
+print(obj.a)
+obj.method()
+
+encapsulation:
+it gives a data security.
+1.public
+2.private
+3.protected
+
+#protected:"_"-(1 underscore)
+PROGRAM:
+class encap:
+    _a=10
+    c=20
+    def encapfunction(self):
+        b=200
+        print("the encapsulation")
+        print(self._a+50)
+
+obj=encap()
+print(obj._a)
+obj.encapfunction()
+print(obj.c)
+
+#private:"__"-(2 underscores)
+PROGRAM:
+class encap:
+    __a=10
+    c=20
+    def encapsulation(self):
+        b=200
+        print("private encapsulation:")
+        print(self.__a+20)
+
+obj=encap()
+
+obj.encapsulation()
+print(obj.__a)
+
+DATA STRUCTURE:
+	inorder tp structurise the data to keep it efficient in terns of 
+	memory usage extractive information is called data structure.
+
+data structure two types:linear and non linear
+
+LINEAR:static and dynamic
+	static : array
+	dynamic: list stack queue
+
+NON-LINEAR: graph and tree.
+
+static is fixed size.
+dynamic is not having fixed size.
+
+
+LINKED LIST:
+	list of data or items will be linked with oneanother is called as linkedlist.
+ex:spotify,multiple urls.
+
+SINGLE-LINKEDLIST
+
+1.insertion:
+	interting new node in the beginning 
+	inserting new node at end
+	insterting new node at gven postion 
+
+STEPS:
+1.create new node which u want to insert
+2.make the new node point to current head node 
+3.make ur new node as head node

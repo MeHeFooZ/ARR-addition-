@@ -1,3 +1,5 @@
+
+
 def hello(*variable):
     print(variable)
     sum=0
