@@ -57,14 +57,14 @@ DATA STRUCTURE:
 
 data structure two types:linear and non linear
 
-LINEAR:static and dynamic
-	static : array
-	dynamic: list stack queue
+LINEAR:"static and dynamic"
+	.static : array
+	.dynamic: list stack queue
 
 NON-LINEAR: graph and tree.
 
-static is fixed size.
-dynamic is not having fixed size.
+*static is fixed size.
+*dynamic is not having fixed size.
 
 
 LINKED LIST:
@@ -127,3 +127,30 @@ double linked list delete first node:
 	3.temp.next=Null
 	4.self.head=temp.next
 	5.temp.head=null
+
+
+STACK:
+Can be implemented in 3ways,
+	1.using list.
+	2.using linkedlist.
+	3.using module called queue.
+
+OPERATIONS IN STACK:
+	1.push.
+	2.pop.
+	3.peek or top.
+	4.empty or full.
+
+STACK IMPPLEMENTSTION USING LINKEDLIST:
+	1.push is inserting node at beginning. 
+	2.pop is removing the head node.
+
+TYPES OR QUEUES:
+	1.circular queue
+	2priority queue
+2.PRIORITY QUEUE:
+	Though elements are in queue, as per the priority given toe the elements 
+	will get privelage to pop from the queue.
+1.CIRCULAR QUQUE:
+	empty spaces in the queue can be utilized once the queue is 
+	full still want to add elements in a circular way.

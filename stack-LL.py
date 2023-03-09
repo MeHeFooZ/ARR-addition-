@@ -47,6 +47,9 @@ if __name__=="__main__":
 
     s.push(input(("enter the values:")))
     s.push(input(("enter the values:")))
+    s.push(input(("enter the values:")))
+    s.push(input(("enter the values:")))
+    s.push(input(("enter the values:")))
     s.display()
     print("")
     print("peek:",s.peek())
