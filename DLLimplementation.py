@@ -1,29 +1,27 @@
 class Node:
     def __init__(self,data):
         self.data=data
+        self.previous=None
         self.next=None
-
-class singlelinkedlist:
-    def __init__(self):
-        self.head=None
-
-class SLL:
+        
+class DLL:
     def __init__(self):
         self.head=None
     def display(self):
         if self.head is None:
-            print("the linked list is empty")
+            print("empty")
         else:
             temp=self.head
-            while(temp):
-                print(temp.data,"-->",end=" ")
+            while temp:
+                print(temp.data,"<-->",end=" ")
                 temp=temp.next
-
-obj=SLL()
+        
+obj=DLL()
 n1=Node(100)
 obj.head=n1
 n2=Node(200)
-obj.head.next=n2 
-n3=Node(300)
-n2.next=n3
+n2.previous=n1
+n1.next=n2
+
 obj.display()
+            

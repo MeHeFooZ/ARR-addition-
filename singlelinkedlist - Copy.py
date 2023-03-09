@@ -2,11 +2,7 @@ class Node:
     def __init__(self,data):
         self.data=data
         self.next=None
-
-class singlelinkedlist:
-    def __init__(self):
-        self.head=None
-
+        
 class SLL:
     def __init__(self):
         self.head=None
@@ -27,3 +23,4 @@ obj.head.next=n2
 n3=Node(300)
 n2.next=n3
 obj.display()
+

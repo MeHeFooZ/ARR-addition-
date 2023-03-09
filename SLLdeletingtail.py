@@ -6,14 +6,16 @@ class Node:
 class singlelinkedlist:
     def __init__(self):
         self.head=None
-        
-    def insert_end(self,data):
-        ne=Node(data)
-        temp=self.head
-        while temp.nex t:
-            temp=temp.next
-        temp.next=ne
 
+    def delete(self):
+          temp=head.self.next
+          prev=self.head
+          while temp.next is not None:
+                temp=temp.next
+                prev=prev.next
+    prev.next=None
+        
+        
     def display(self):
         if self.head is None:
             print("linked list is empty")
@@ -35,6 +37,8 @@ n2.next=n3
 n4=Node(50)
 n3.next=n4
 
-obj.insert_end(111111)
+obj.display()
+print("\n")
+obj.delete()
 
 obj.display()
